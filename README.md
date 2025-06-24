@@ -2,7 +2,7 @@
 
 ## Author
 **Sai Vineel**  
-CSE-B, Engineering College (Autonomous)
+CSE-B, ACE Engineering College (Autonomous)
 
 ---
 
