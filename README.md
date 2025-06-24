@@ -1,43 +1,12 @@
+# Skill Development Course Projects
+
 ## Author
 **Sai Vineel**  
-CSE-B, ACE Engineering College (Autonomous)
+CSE-B, Engineering College (Autonomous)
 
 ---
 
-## Overview
-
-This repository consists of 16 individual programs/projects implemented using technologies such as Node.js, React.js, Django, Java, and more. Each program is designed to demonstrate core concepts in web development, API creation, client-side/server-side logic, and responsive design.
-
----
-
-## Table of Contents
-
-1. [Responsive Shopping Cart Web Application](#1-responsive-shopping-cart-web-application)
-2. [Responsive Shopping Cart with Bootstrap](#2-responsive-shopping-cart-with-bootstrap)
-3. [Client-Side Validation Using JavaScript](#3-client-side-validation-using-javascript)
-4. [Weather Information Visualization (ES6 + Chart.js)](#4-weather-information-visualization-es6--chartjs)
-5. [Java CRUD with MySQL](#5-java-crud-with-mysql)
-6. [Servlet-Based Shopping Cart](#6-servlet-based-shopping-cart)
-7. [Session Management in Servlets](#7-session-management-in-servlets)
-8. [Custom Server with Node.js Core Modules](#8-custom-server-with-nodejs-core-modules)
-9. [Student REST API with Node.js & Express](#9-student-rest-api-with-nodejs--express)
-10. [Student API with JWT Authentication](#10-student-api-with-jwt-authentication)
-11. [Student Management System using React](#11-student-management-system-using-react)
-12. [React Weather Services](#12-react-weather-services)
-13. [React TODO App](#13-react-todo-app)
-14. [Student Management System using Django](#14-student-management-system-using-django)
-15. [Django Weather App with Chart.js](#15-django-weather-app-with-chartjs)
-16. [Django TODO Application](#16-django-todo-application)
-
----
-
-## 1. Responsive Shopping Cart Web Application
-
-**Tech**: HTML, CSS3 (Flexbox & Grid)  
-**Features**:
-- Register/Login
-- Browse catalog
-- Add to cart
+## 1. PROGRAM 1 - Responsive Shopping Cart Web Application.
 
 **Run Instructions**:
 ```bash
@@ -46,3 +15,267 @@ cd shopping-cart
 npm install
 node server.js
 # Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 2. Make the above web application responsive web application using Bootstrap framework
+
+**Tech**: -HTML5 -CSS3 -Bootstrap 5 SETUP INSTRUCTIONS 1.Clone the repository: 2.git clone https://github.com/your-repo/ShoppingCartApp.git 3.Navigate to the project folder: 4.cd ShoppingCartApp/public/html 5.Open paybycreditcard.html in your browser.
+
+**Features**:
+- •Responsive design using Bootstrap 5
+- •Credit card payment form with fields for cardholder name, card number, expiration date, and CVV
+- •Modern and clean UI
+- •Mobile-friendly layout
+- FILE STRUCTURE
+- ShoppingCartApp/
+- │── public/
+- │ |───css/
+- │ │ |─paybycreditcard.css
+- │ |── html/
+- │ │ |─paybycreditcard.html
+- | | |─Orderconform.html
+- |────readme.md
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 3. Client-Side Validation Using JavaScript
+
+**Tech**: THEORY Client-side validation ensures that form inputs meet the required format before being sent to the server. JavaScript functions are used to check user input dynamically, preventing invalid data from being submitted and improving the user experience.
+
+**Features**:
+- Registration Form Validation
+- Validates user input fields (name, email, and password).
+- Ensures all fields are filled.
+- Uses a regular expression to validate email format.
+- Checks that the password is at least 6 characters long.
+- Displays an alert for invalid input.
+- Shopping Cart Validation
+- Retrieves cart items from localStorage.
+- Validates quantity (must be a positive number).
+- Displays an alert for incorrect input.
+- Dynamically updates the total price.
+- FILE STRUCTURE
+- ShoppingCartApp/
+- │── public/
+- │ |── js/
+- │ │ |──validation.js
+- │ |── html/
+- │ │ |── Registration.html
+- |────readme.md
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 4. Weather Information Visualization Using ES6 Features.
+
+**Tech**: HTML for structuring the application CSS for styling and layout JavaScript (ES6+) for functionality Chart.js for data visualization OpenWeatherMap API for real-time weather data
+
+**Features**:
+- Fetch real-time weather data using OpenWeatherMap API
+- Input validation to ensure a valid city name
+- Dynamic UI updates using JavaScript DOM manipulation
+- Graphical representation of weather data using Chart.js • 	Error handling for better user experience
+- FILE STRUCTURE
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 5. Java Standalone Application with MySQL (CRUD Operations)
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 6. PROGRAM 6 – Servlet-Based Controller for Shopping Cart
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 7. PROGRAM 7 – Session Management in Shopping Cart Web Application
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 8. PROGRAM 8 – Custom Server and Core Modules in Node.js
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 9. PROGRAM 9 – RESTful Student API with Node.js and Express
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 10. PROGRAM 10 – Student API with JWT Authentication
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 11. PROGRAM 11 – Student Management System with React.
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 12. PROGRAM 12 – React Weather Services
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 13. PROGRAM 13 – React TODO App
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 14. Program 14 - Django Student Management
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 15. Program 15 - Django Weather App
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
+## 16. Program 16 – Django TODO App
+
+**Run Instructions**:
+```bash
+git clone https://github.com/SaiVineel05/SDC
+cd shopping-cart
+npm install
+node server.js
+# Visit http://localhost:3000
+```
+![Screenshot](public/images/example.png)
+
+---
+
